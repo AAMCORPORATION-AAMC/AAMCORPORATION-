@@ -1,0 +1,5 @@
+## How to verify in 10 seconds
+```bash
+curl -s https://525926121dc7.ngrok-free.app/status | jq .
+curl -s https://525926121dc7.ngrok-free.app/manifest | jq .
+curl -s https://525926121dc7.ngrok-free.app/genesis | jq .
